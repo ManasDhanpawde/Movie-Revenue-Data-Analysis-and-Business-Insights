@@ -1,4 +1,4 @@
-# Movie-Revenue-Data-Analysis-and-Business-Insights
+# Movie Revenue Data Analysis and Business Insights
 ## 🎥 Movie Revenue Analysis & Business Intelligence Project
 
 **📊 Overview**
@@ -15,92 +15,80 @@ The final deliverables include:
 
 - K-means clustering to segment movies into clear financial archetypes
 
-📌 Problem Statement
+**📌 Problem Statement**
 
 The movie industry faces increasing uncertainty in predicting the commercial success of films before release. This project aims to identify key factors influencing box office performance using historical data and predictive analytics.
 
-🔧 Tools & Technologies
+**🔧 Tools & Technologies**
 
-Python: Pandas, Scikit-learn, Seaborn, Matplotlib
+- Python: Pandas, Scikit-learn, Seaborn, Matplotlib
 
-Power BI: Data modeling, DAX, dashboard creation
+- Power BI: Data modeling, DAX, dashboard creation
 
-SQL: SQLite for querying IMDb database
+- SQL: SQLite for querying IMDb database
 
-Jupyter Notebook: Data preprocessing, EDA, modeling
+- Jupyter Notebook: Data preprocessing, EDA, modeling
 
-ML Models: Decision Tree, Random Forest
+- ML Models: Decision Tree, Random Forest
 
-Unsupervised Learning: K-means Clustering, PCA
+- Unsupervised Learning: K-means Clustering, PCA
 
-📈 Project Workflow
+**📈 Project Workflow**
 
-1.Data Collection
+1. **Data Collection**
+   - Gathered data from IMDb, TMDb, Rotten Tomatoes (CSV, TSV, DB files)
 
-Gathered data from IMDb, TMDb, Rotten Tomatoes (CSV, TSV, DB files)
+2. **Data Cleaning & Preprocessing**
+   - Standardized date formats and financial fields
+   - Handled outliers, missing values, and multi-genre flags
+   - Created derived financial metrics: ROI, profit, profit margin
 
-2.Data Cleaning & Preprocessing
+3. **Exploratory Data Analysis (EDA)**
+   - Analyzed profitability trends by genre, seasonality, and popularity
+   - Created correlation heatmaps and feature distributions
 
-Standardized date formats and financial fields
+4. **Machine Learning Models**
+   - Converted ROI into binary success/failure labels
+   - Trained Decision Tree and Random Forest models
+   - Achieved 80% prediction accuracy with Random Forest
+   - Plotted feature importance for business interpretability
 
-Handled outliers, missing values, and multi-genre flags
+5. **Clustering & Segmentation**
+   - Applied K-means clustering (k=4, via elbow method)
+   - Used PCA for 2D visualization of movie segments
 
-Created derived financial metrics: ROI, profit, profit margin
+6. **Power BI Dashboard**
+   - Created interactive visualizations: revenue trends, genre-wise ROI, KPIs
+   - Enabled dynamic filtering by year, genre, and budget tiers
 
-3.Exploratory Data Analysis (EDA)
+**🎯 Key Business Insights**
 
-Analyzed profitability trends by genre, seasonality, and popularity
+- Genres with highest ROI: Horror, Animation, and Romance
 
-Created correlation heatmaps and feature distributions
+- Optimal release months: May, June, July, and December
 
-4.Machine Learning Models
+- Blockbusters demand massive budgets but deliver proportionally lower ROI than sleeper hits
 
-Converted ROI into binary success/failure labels
+- Identified 4 movie archetypes: Sleeper Hits, Blockbusters, Mid-tier Mainstream, and Underperformers
 
-Trained Decision Tree and Random Forest models
+**📊 Deliverables**
 
-Achieved 80% prediction accuracy with Random Forest
+- 📄 final_dataset.csv
 
-Plotted feature importance for business interpretability
+- 📊 DSBI Dashboard.pbix
 
-5.Clustering & Segmentation
-
-Applied K-means clustering (k=4, via elbow method)
-
-Used PCA for 2D visualization of movie segments
-
-6.Power BI Dashboard
-
-Created interactive visualizations: revenue trends, genre-wise ROI, KPIs
-
-Enabled dynamic filtering by year, genre, and budget tiers
-
-🎯 Key Business Insights
-
-Genres with highest ROI: Horror, Animation, and Romance
-
-Optimal release months: May, June, July, and December
-
-Blockbusters demand massive budgets but deliver proportionally lower ROI than sleeper hits
-
-Identified 4 movie archetypes: Sleeper Hits, Blockbusters, Mid-tier Mainstream, and Underperformers
-
-📊 Deliverables
-
-📄 final_dataset.csv
-
-📊 DSBI Dashboard.pbix
-
-📒 DSBI_Project.ipynb (Python EDA & ML)
+- 📒 DSBI_Project.ipynb (Python EDA & ML)
 
 
 
-📌 Conclusion
+**📌 Conclusion**
+
 This project demonstrated the power of combining data science, machine learning, and BI tools to derive actionable business insights in the entertainment industry. It highlighted how data-driven strategies can guide movie production, release timing, and marketing decisions to maximize commercial success.
 
-📚 References
-IMDb Dataset
+**📚 References**
 
-Rotten Tomatoes
+- IMDb Dataset
 
-TMDb Dataset
+- Rotten Tomatoes
+
+- TMDb Dataset
