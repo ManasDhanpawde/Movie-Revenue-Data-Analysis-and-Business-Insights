@@ -77,7 +77,7 @@ The movie industry faces increasing uncertainty in predicting the commercial suc
 
 - 📊 DSBI Dashboard.pbix
 
-- 📒 DSBI_Project.ipynb (Python EDA & ML)
+- 📒 Project Notebook.ipynb (Python EDA & ML)
 
 
 
